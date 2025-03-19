@@ -31,3 +31,7 @@ This document outlines project ideas proposed by Kularathna A. K. D. D. D. ===> 
 7.  **Piezoelectric Floor Energy Harvesting:**
     * Explore the feasibility of harvesting energy from piezoelectric floors.
     * Design and implement a system to convert mechanical stress from footsteps into electrical energy.
+
+8.  **Model Traffic Light Control System::**
+    * This system simulates a traffic light control system.  The vehicle detection sensors trigger changes in the traffic light sequence.
+
