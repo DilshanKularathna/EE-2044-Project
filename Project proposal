@@ -1,0 +1,68 @@
+### Project Ideas proposed by Krishanth.M (220329M) ###
+
+@ PROJECT IDEA 1 @
+
+%%  Smart Air Quality Monitoring & Control System  $$
+* Concept: 
+A system designed to monitor indoor air quality and automatically regulate ventilation and purification to ensure a healthy environment.
+
+* Sensors:
+Air quality sensor (MQ-135) → Detects CO₂ and harmful gases
+Temperature & humidity sensor (DHT22) → Monitors environmental conditions
+Light sensor (LDR) → Adjusts ventilation based on ambient light levels
+
+* Actuators:
+Exhaust fan → Turns ON when CO₂ levels are high
+Air purifier → Activates when pollutants exceed safe levels
+
+* Extra Feature:
+Displays real-time air quality trends
+
+Useful for homes, offices, and labs
+Provides a combination of safety, automation, and environmental control
+
+
+@ PROJECT IDEA 2 @
+
+$$  Smart Fish Tank Management System  $$
+* Concept:
+An automated system to monitor and regulate various conditions in a fish tank to create the optimal environment for aquatic life.
+
+* Sensors:
+pH sensor → Monitors water acidity for safe aquatic conditions
+Temperature sensor (DS18B20) → Ensures optimal water temperature
+Water level sensor → Detects when the water level is too low
+
+* Actuators:
+Water pump → Adds fresh water when the level drops
+Heater → Activates if the water temperature falls below the set range
+
+* Extra Feature:
+LED lighting control (3-step brightness adjustment)
+Displays water quality data in real-time
+
+Perfect for aquarium enthusiasts
+Uses multiple sensors and actuators in a real-world application
+
+
+@ PROJECT IDEA 3 @
+
+$$  Smart Study Desk for Students  $$
+* Concept:
+A desk that adjusts lighting, reminds students to take breaks, and helps reduce distractions automatically, enhancing productivity.
+
+* Sensors:
+Light sensor (LDR) → Adjusts LED brightness according to ambient light
+Proximity sensor → Detects the presence of a user at the desk
+Noise sensor → Monitors sound levels to detect distractions
+
+* Actuators:
+LED strip with brightness control → Adjusts based on ambient light levels
+Buzzer/Vibration motor → Reminds the user to take a break when needed
+
+* Extra Feature:
+LabVIEW Study Timer → Tracks focus time and break intervals
+Phone usage detection (via Bluetooth module) → Alerts if a phone is being used during study time
+
+Unique and student-friendly
+Blends automation with productivity tracking
