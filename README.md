@@ -124,7 +124,7 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 
 ## Project Phase Checklist
 
-### Phase 1: Research & Design
+### Phase 1: Research & Design ✅
 - [x] Define system requirements  
 - [x] Perform literature review  
 - [x] Identify sensors & actuators  
@@ -133,12 +133,13 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 - [x] Review & sign‑off design document
 
 ### Phase 2: Development
+- [ ] Design the system in LabVIEW
 - [ ] Order components & tools  
-- [ ] Assemble hardware prototype  
-- [ ] Wire up sensors to DAQ / Arduino / ESP32  
-- [ ] Develop LabVIEW acquisition logic  
+- [ ] Assemble hardware prototype with Arduino Simulator  
+- [ ] Wire up sensors to NI DAQ 
+- [ ] Develop LabVIEW acquisition logic for NI DAQ card
 - [ ] Implement control algorithms  
-- [ ] Integrate UI (OLED/LCD + buttons)  
+- [ ] Integrate UI (LCD + buttons)  
 - [ ] Internal code review & testing  
 
 ### Phase 3: Testing & Validation
