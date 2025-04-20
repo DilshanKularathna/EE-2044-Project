@@ -7,7 +7,6 @@
 **Kularathna A. K. D. D. D. – 220332P**  
 **Kulasingha K. S. L. – 220333U**
 
-*Submitted as a partial fulfilment for the module EE 2044, Department of Electrical Engineering, University of Moratuwa.*
 
 ---
 
