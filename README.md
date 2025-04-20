@@ -126,12 +126,12 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 ## Project Phase Checklist
 
 ### Phase 1: Research & Design
-- [ ] Define system requirements  
-- [ ] Perform literature review  
-- [ ] Identify sensors & actuators  
-- [ ] Draft system block diagram  
-- [ ] Finalize hardware/platform selection  
-- [ ] Review & sign‑off design document
+- [x] Define system requirements  
+- [x] Perform literature review  
+- [x] Identify sensors & actuators  
+- [x] Draft system block diagram  
+- [x] Finalize hardware/platform selection  
+- [x] Review & sign‑off design document
 
 ### Phase 2: Development
 - [ ] Order components & tools  
