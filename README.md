@@ -10,5 +10,6 @@
 ## 🧑‍💻 Personal Contributions and Working Principles
 
 - Written and finalized the project proporsal
+- Proporsed the idea for water pump control using MOSFET switching
 
 ---
