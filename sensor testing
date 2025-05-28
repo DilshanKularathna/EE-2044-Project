@@ -1,1 +1,69 @@
+$$ testing tempetature sensor $$
 
+include <OneWire.h>
+#include <DallasTemperature.h>
+
+#define ONE_WIRE_BUS 2  // Data pin connected to D2
+// Note: Don't forget to add a 4.7kΩ pull-up resistor between data pin and VCC
+
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);
+
+void setup() {
+  Serial.begin(9600);
+  
+  // Wait for serial port to initialize
+  while (!Serial) {
+    delay(10);
+  }
+  
+  Serial.println("DS18B20 Temperature Sensor Test");
+  Serial.println("Initializing...");
+  
+  sensors.begin(); // Initialize sensor
+  
+  // Check if sensor is connected
+  int deviceCount = sensors.getDeviceCount();
+  Serial.print("Found ");
+  Serial.print(deviceCount);
+  Serial.println(" device(s)");
+  
+  if (deviceCount == 0) {
+    Serial.println("ERROR: No DS18B20 sensors found!");
+    Serial.println("Check wiring and pull-up resistor (4.7kΩ)");
+  }
+  
+  // Set resolution (9-12 bits, higher = more precise but slower)
+  sensors.setResolution(12);
+  
+  Serial.println("Setup complete");
+  Serial.println("------------------------");
+}
+
+void loop() {
+  Serial.print("Requesting temperatures... ");
+  sensors.requestTemperatures(); // Request temperature reading
+  Serial.println("DONE");
+  
+  // Get temperature in Celsius
+  float tempC = sensors.getTempCByIndex(0);
+  
+  // Check if reading is valid
+  if (tempC == DEVICE_DISCONNECTED_C) {
+    Serial.println("ERROR: Could not read temperature data");
+    Serial.println("Check sensor connection and wiring");
+  } else {
+    // Display temperature
+    Serial.print("Temperature: ");
+    Serial.print(tempC);
+    Serial.print(" °C  |  ");
+    
+    // Also show in Fahrenheit
+    float tempF = sensors.getTempFByIndex(0);
+    Serial.print(tempF);
+    Serial.println(" °F");
+  }
+  
+  Serial.println("------------------------");
+  delay(2000); // Wait 2 seconds between readings
+}
