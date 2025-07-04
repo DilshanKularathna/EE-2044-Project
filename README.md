@@ -133,14 +133,14 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 - [x] Review & sign‑off design document
 
 ### Phase 2: Development
-- [ ] Design the system in LabVIEW
-- [ ] Order components & tools  
-- [ ] Assemble hardware prototype with Arduino Simulator  
-- [ ] Wire up sensors to NI DAQ 
-- [ ] Develop LabVIEW acquisition logic for NI DAQ card
-- [ ] Implement control algorithms  
-- [ ] Integrate UI (LCD + buttons)  
-- [ ] Internal code review & testing  
+- [x] Design the system in LabVIEW
+- [x] Order components & tools  
+- [x] Assemble hardware prototype with Arduino Simulator  
+- [x] Wire up sensors to NI DAQ 
+- [x] Develop LabVIEW acquisition logic for NI DAQ card
+- [x] Implement control algorithms  
+- [x] Integrate UI (LCD + buttons)  
+- [x] Internal code review & testing  
 
 ### Phase 3: Testing & Validation
 - [ ] Design test cases for each sensor  
