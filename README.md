@@ -132,7 +132,7 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 - [x] Finalize hardware/platform selection  
 - [x] Review & sign‑off design document
 
-### Phase 2: Development
+### Phase 2: Development ✅
 - [x] Design the system in LabVIEW
 - [x] Order components & tools  
 - [x] Assemble hardware prototype with Arduino Simulator  
