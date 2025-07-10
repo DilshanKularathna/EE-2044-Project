@@ -142,22 +142,22 @@ The Smart Tank Management System tackles critical challenges in Sri Lanka’s or
 - [x] Integrate UI (LCD + buttons)  
 - [x] Internal code review & testing  
 
-### Phase 3: Testing & Validation
-- [ ] Design test cases for each sensor  
-- [ ] Validate pH sensing accuracy  
-- [ ] Verify water‑level detection  
-- [ ] Test temperature control loop  
-- [ ] Check LED light adjustment  
-- [ ] Run end‑to‑end pilot trial  
-- [ ] Log results & troubleshoot issues  
-- [ ] Update documentation with test data
+### Phase 3: Testing & Validation ✅
+- [x] Design test cases for each sensor  
+- [x] Validate pH sensing accuracy  
+- [x] Verify water‑level detection  
+- [x] Test temperature control loop  
+- [x] Check LED light adjustment  
+- [x] Run end‑to‑end pilot trial  
+- [x] Log results & troubleshoot issues  
+- [x] Update documentation with test data
 
-### Phase 4: Implementation
-- [ ] Deploy prototype in real tank setup  
-- [ ] Train end‑users on system operation  
-- [ ] Collect user feedback  
-- [ ] Refine software & hardware as needed  
-- [ ] Document deployment steps  
-- [ ] Final sign‑off & handover
+### Phase 4: Implementation ✅
+- [x] Deploy prototype in real tank setup  
+- [x] Train end‑users on system operation  
+- [x] Collect user feedback  
+- [x] Refine software & hardware as needed  
+- [x] Document deployment steps  
+- [x] Final sign‑off & handover
 
 ---
